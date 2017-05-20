@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pokedexter/PokeCell.swift"
+            timestampString = "516940321.191275"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "PokeCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pokedexter.PokeCell.nameLabel.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "Pokedexter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/iOSProjects/Pokedexter/Pokedexter/Pokedexter/PokeCell.swift"
+                  timestampString = "516942135.112788"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pokedexter.PokeCell.nameLabel.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "Pokedexter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/iOSProjects/Pokedexter/Pokedexter/Pokedexter/PokeCell.swift"
+                  timestampString = "516942135.115452"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pokedexter.PokeCell.init (frame : __C.CGRect) -&gt; Pokedexter.PokeCell"
+                  moduleName = "Pokedexter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/iOSProjects/Pokedexter/Pokedexter/Pokedexter/PokeCell.swift"
+                  timestampString = "516942135.117689"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pokedexter.PokeCell.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Pokedexter.PokeCell&gt;"
+                  moduleName = "Pokedexter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/iOSProjects/Pokedexter/Pokedexter/Pokedexter/PokeCell.swift"
+                  timestampString = "516942135.119883"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

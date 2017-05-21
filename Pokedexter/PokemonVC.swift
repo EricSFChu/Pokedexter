@@ -110,10 +110,6 @@ class PokemonVC: UIViewController, UICollectionViewDelegate, UICollectionViewDat
         return CGSize(width: 105, height: 105)
     }
     
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
-    }
-    
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         view.endEditing(true)
     }
@@ -124,18 +120,40 @@ class PokemonVC: UIViewController, UICollectionViewDelegate, UICollectionViewDat
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         if searchBar.text == nil || searchBar.text == "" {
+            
             inSearchMode = false
             collectionView.reloadData()
             view.endEditing(true)
+        
         } else {
+        
             inSearchMode = true
             let filterBy = searchBar.text!.lowercased()
             filteredPokemon = pokemon.filter({$0.name.range(of: filterBy) != nil})
             collectionView.reloadData()
+        
         }
     }
     
-
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        var poke: Pokemon!
+        poke = inSearchMode ? filteredPokemon[indexPath.row] : pokemon[indexPath.row]
+        
+        performSegue(withIdentifier: "PokeDetailVC", sender: poke)
+    }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "PokeDetailVC" {
+            if let detailsVC = segue.destination as? PokeDetailVC {
+                if let poke = sender as? Pokemon {
+                    
+                    detailsVC.pokemon = poke
+                    detailsVC.musicPlayer = self.musicPlayer
+                }
+            }
+        }
+    }
 }
+
 

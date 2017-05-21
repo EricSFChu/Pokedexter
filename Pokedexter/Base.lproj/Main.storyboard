@@ -239,6 +239,9 @@
                                                     <segment title="Moves"/>
                                                 </segments>
                                                 <color key="tintColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="segmentedControlDidChange:" destination="P3W-Ct-JtS" eventType="valueChanged" id="7mY-K1-tRw"/>
+                                                </connections>
                                             </segmentedControl>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="9Ft-eA-RpI">
                                                 <rect key="frame" x="0.0" y="48" width="304" height="120"/>
@@ -465,15 +468,15 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="omH-bQ-Go6">
                                         <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="120" id="OT8-lJ-toW"/>
-                                            <constraint firstAttribute="height" constant="120" id="hX6-vb-FeE"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="120" id="OT8-lJ-toW"/>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="120" id="hX6-vb-FeE"/>
                                         </constraints>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qb8-wA-Zjf">
                                         <rect key="frame" x="150" y="0.0" width="120" height="120"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="120" id="JjK-sd-7hX"/>
-                                            <constraint firstAttribute="height" constant="120" id="vVS-1C-9uW"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="120" id="JjK-sd-7hX"/>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="120" id="vVS-1C-9uW"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
@@ -526,6 +529,7 @@
                         <outlet property="evolutionImage" destination="qb8-wA-Zjf" id="gNs-m8-O3r"/>
                         <outlet property="evolutionLabel" destination="VkL-Ye-NbN" id="8Y1-ak-dWD"/>
                         <outlet property="mainImage" destination="1ns-ux-Pv3" id="4gx-yw-6SI"/>
+                        <outlet property="navBar" destination="0Ga-If-UJH" id="W54-y4-5Fu"/>
                         <outlet property="pokemonAttackLabel" destination="BeT-c8-oTa" id="9e5-UK-AnA"/>
                         <outlet property="pokemonDefenseLabel" destination="yKD-0x-vbb" id="kAh-dN-6Yv"/>
                         <outlet property="pokemonDescriptionLabel" destination="9i0-bs-kon" id="j32-5e-aeY"/>
@@ -538,6 +542,7 @@
                         <outlet property="pokemonWeightLabel" destination="4kW-Qz-Yb7" id="K9m-ER-Ud3"/>
                         <outlet property="secondaryImage" destination="omH-bQ-Go6" id="MGT-R9-ZsB"/>
                         <outlet property="segmentedControl" destination="Gh4-BF-kgw" id="SVc-Zy-eUD"/>
+                        <outlet property="typeLabel" destination="kUL-q3-CJe" id="Bq7-W2-4iY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G71-CO-Rc6" userLabel="First Responder" sceneMemberID="firstResponder"/>

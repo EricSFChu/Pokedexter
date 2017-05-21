@@ -13,6 +13,7 @@
 		7A2B668C1ED0226900E7838F /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A2B668B1ED0226900E7838F /* music.mp3 */; };
 		7A2B668E1ED12CF200E7838F /* PokeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2B668D1ED12CF200E7838F /* PokeDetailVC.swift */; };
 		7A2B66901ED1517900E7838F /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2B668F1ED1517900E7838F /* constants.swift */; };
+		7A2B66921ED1B48800E7838F /* GangnamStyle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A2B66911ED1B48800E7838F /* GangnamStyle.mp3 */; };
 		7A8B142C1ECF3E6E0044E42B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8B142B1ECF3E6E0044E42B /* AppDelegate.swift */; };
 		7A8B142E1ECF3E6E0044E42B /* PokemonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8B142D1ECF3E6E0044E42B /* PokemonVC.swift */; };
 		7A8B14311ECF3E6E0044E42B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A8B142F1ECF3E6E0044E42B /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 		7A2B668B1ED0226900E7838F /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		7A2B668D1ED12CF200E7838F /* PokeDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeDetailVC.swift; sourceTree = "<group>"; };
 		7A2B668F1ED1517900E7838F /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		7A2B66911ED1B48800E7838F /* GangnamStyle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GangnamStyle.mp3; sourceTree = "<group>"; };
 		7A8B14281ECF3E6E0044E42B /* Pokedexter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedexter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A8B142B1ECF3E6E0044E42B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A8B142D1ECF3E6E0044E42B /* PokemonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonVC.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 		7A2B668A1ED01E9000E7838F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7A2B66911ED1B48800E7838F /* GangnamStyle.mp3 */,
 				7A2B66861ED01A3700E7838F /* Pokemon Hollow.ttf */,
 				7A2B66871ED01A3700E7838F /* Pokemon Solid.ttf */,
 				7A8B14441ECFD6880044E42B /* back.png */,
@@ -231,6 +234,7 @@
 				7A8B14461ECFD6880044E42B /* back.png in Resources */,
 				7A8B14331ECF3E6E0044E42B /* Assets.xcassets in Resources */,
 				7A8B14411ECFC64E0044E42B /* pokemon.csv in Resources */,
+				7A2B66921ED1B48800E7838F /* GangnamStyle.mp3 in Resources */,
 				7A8B14311ECF3E6E0044E42B /* Main.storyboard in Resources */,
 				7A8B14471ECFD6880044E42B /* music.png in Resources */,
 				7A2B66881ED01B7400E7838F /* Pokemon Hollow.ttf in Resources */,

@@ -118,6 +118,7 @@ class PokeDetailVC: UIViewController {
             collision.translatesReferenceBoundsIntoBoundary = true
             itemBehavior = UIDynamicItemBehavior(items: [secondaryImage])
             itemBehavior.elasticity = 1.2
+            itemBehavior.friction = 0.2
             
             animator.addBehavior(itemBehavior)
             
